@@ -1,0 +1,12 @@
+$main-color: rgba(4, 167, 119, 0.8);
+$main-font-color: #fff;
+$title-font: "Lato", sans-serif;
+$main-font: "Roboto", sans-serif;
+$subtitle-color: #999999;
+$description-color: #333333;
+
+@mixin flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

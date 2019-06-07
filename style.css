@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css?family=Lato|Roboto&display=swap");
+body {
+  margin: 0;
+  padding: 0; }
+  body header {
+    height: 900px;
+    background-image: linear-gradient(rgba(4, 167, 119, 0.8), rgba(4, 167, 119, 0.8)), url(./Media/header-bg@3x.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff; }
+    body header nav {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      justify-content: space-between;
+      height: 80px;
+      border: solid 2px rgba(0, 0, 0, 0.1);
+      background-color: rgba(4, 167, 119, 0.8); }
+      body header nav .logo {
+        margin: 30px;
+        font-family: "Lato", sans-serif; }
+      body header nav .menu {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: "Roboto", sans-serif; }
+        body header nav .menu li {
+          list-style: none;
+          margin: 20px; }
+    body header .header-content {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      height: 790px; }
+      body header .header-content h1 {
+        font-family: "Lato", sans-serif;
+        font-size: 64px;
+        text-align: center; }
+      body header .header-content p {
+        font-family: "Roboto", sans-serif;
+        font-size: 20px;
+        text-align: center;
+        width: 520px;
+        height: 96px; }
+      body header .header-content button {
+        width: 180px;
+        height: 50px;
+        border-radius: 5px;
+        border: solid 3px #ffffff;
+        background-color: rgba(0, 0, 0, 0);
+        color: #fff;
+        margin-top: 50px; }
+  body main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 75px; }
+    body main h3 {
+      font-size: 36px;
+      font-family: "Lato", sans-serif;
+      color: #333333; }
+    body main p {
+      font-size: 20px;
+      font-family: "Roboto", sans-serif;
+      color: #999999; }
+    body main .app-description {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      justify-content: flex-start;
+      align-items: flex-start; }
+      body main .app-description p {
+        font-family: "Roboto", sans-serif;
+        font-size: 20px;
+        line-height: 1.5;
+        margin-right: 75px;
+        flex: 1;
+        color: #333333; }
+      body main .app-description .app-mockup img {
+        width: 600px;
+        flex: 1; }
